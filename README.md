@@ -5,3 +5,5 @@ NightMosque offers a variety of features including a detailed prayer schedule, e
 In addition to the prayer schedule, NightMosque provides a range of other services designed to support and enrich your spiritual journey.
 
 Join us at NightMosque, your online sanctuary for spiritual connection and community.
+
+![alt text](https://th.bing.com/th/id/OIG3.sMMIhzqRt82hmjcG0hxY?w=1024&h=1024&rs=1&pid=ImgDetMain)
