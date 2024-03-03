@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+route::get('logout-user', function () {
+    Auth::logout();
+    return redirect('/');
+})->name('logout-user');
 
 Route::get('logout-user', function () {
     Auth::logout();
@@ -19,8 +23,9 @@ Route::get('logout-user', function () {
 })->name('logout-user');
 
 Route::get('/', function () {
-        return view('welcome');
-    });
+    return view('welcome');
+});
+
 
 Auth::routes();
 
