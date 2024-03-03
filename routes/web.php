@@ -12,7 +12,15 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+route::get('logout-user', function () {
+    Auth::logout();
+    return redirect('/');
+})->name('logout-user');
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
