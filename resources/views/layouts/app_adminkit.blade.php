@@ -28,6 +28,7 @@
           <span class="align-middle">AdminKit</span>
         </a>
 
+
 				<ul class="sidebar-nav">
 					<li class="sidebar-header">
 						Pages
@@ -37,16 +38,19 @@
 						<a class="sidebar-link" href="{{ route('home')}}">
               <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Beranda</span>
             </a>
+
 					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="pages-profile.html">
               <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
             </a>
+
 					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="pages-sign-in.html">
+
               <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Sign In</span>
             </a>
 					</li>
@@ -58,7 +62,6 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-blank.html">
               <i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
             </a>
 					</li>
@@ -304,6 +307,7 @@
 						<div class="col-6 text-start">
 							<p class="mb-0">
 								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
+
 							</p>
 						</div>
 						<div class="col-6 text-end">

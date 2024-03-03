@@ -6,4 +6,11 @@ In addition to the prayer schedule, NightMosque provides a range of other servic
 
 Join us at NightMosque, your online sanctuary for spiritual connection and community.
 
+Package using
+composer require barryvdh/laravel-debugbar --dev
+composer require --dev barryvdh/laravel-ide-helper
+composer require laravelcollective/html
+composer require laravel/ui
+composer require --dev laravel-lang/common
+
 ![alt text](https://th.bing.com/th/id/OIG3.sMMIhzqRt82hmjcG0hxY?w=1024&h=1024&rs=1&pid=ImgDetMain)
